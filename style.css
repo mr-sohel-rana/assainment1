@@ -114,5 +114,72 @@ button:hover {
   padding-right: 200px;
   font-family: 'Raleway', sans-serif;
 }
+  .review {
+  padding: 4rem 1rem;
+  text-align: left;
+}
+.review h1 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+   text-align: center;
+}
 
-  
+/* --- Flex container for cards -------------------- */
+.reviewText {
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+  max-width: 1200px;
+  margin:15px;
+ 
+}
+ 
+.card {
+  flex: 1;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .12);
+  padding: 2rem 1.5rem;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+/* Stars row */
+.stars img {
+  width: 18px;
+  margin-right: 2px;
+}
+
+/* Headline & body text */
+.reviewHeading {
+  font-size: 1.1rem;
+  margin: 1rem 0 .5rem;
+}
+.reviewBody {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+ 
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: auto;           /* push to bottom of card */
+}
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.reviewName {
+  font-size: 0.9rem;
+  text-align: left;
+}
+.reviewName .date {
+  font-size: 0.75rem;
+  color: #888;
+}
