@@ -84,3 +84,35 @@ button:hover {
   border-radius: 8px;
 }
  
+ .productive{
+    background-color: #DAE3FF;
+    margin: 50px;
+     padding: 30px;
+     border-radius: 15px;
+    
+ }
+.productive h1 {
+  text-align: center;
+  font-size:40px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+ 
+}
+.productive h2 {
+  text-align: center;
+  font-size:60px;
+  color: #4E47FF;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+ 
+.text {
+  display: flex;
+  justify-content: space-between;                       
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Raleway', sans-serif;
+}
+
+  
